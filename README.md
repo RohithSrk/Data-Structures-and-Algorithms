@@ -26,6 +26,10 @@
     * [2.1.6. Radix Sort](#216-radix-sort)
     * [2.1.7. Selection Sort](#217-selection-sort)
   * [2.2. Searching Algorithms](#21-searching-algorithms)
+    * [2.2.1. Linear Search](#221-linear-search)
+    * [2.2.2. BInay Search](#222-binary-search)
+* [3.0. Miscellaneous](#30-miscellaneous)
+  * [3.0.1. Polynomial Addition](#301-polynomial-addition)
 
 -------------------------------------------------------
 
@@ -278,7 +282,49 @@ _Time complexity:_
 
 > **Note:** Here `k` is the base (usually 10) of the type of number system that is being sorted
 
+## 2.2. Searching Algorithms
+
+### 2.2.1. Linear Search
+_Worst-case space complexity:_ `O(1)`
+
+_Time complexity:_
+
+| Operation    | Time Complexity |
+|--------------|-----------------|
+| Best         |          `O(1)` |
+| Average      |          `O(n)` |
+| Worst        |          `O(n)` |
+
+### 2.2.2. Binary Search
+![Binary search visualization](_images/binary_search.png)
+> Visualization of the binary search algorithm where 7 is the target value
+
+_Worst-case space complexity:_ `O(1)`
+
+_Time complexity:_
+
+| Operation    | Time Complexity |
+|--------------|-----------------|
+| Best         |          `O(1)` |
+| Average      |      `O(log n)` |
+| Worst        |      `O(log n)` |
+
+
+# 3.0. Miscellaneous
+* [Polynomial Addition](miscellaneous/polynomials)
+* [Sparse Matrices](miscellaneous/sparse-matrices)
+* [Hashing](miscellaneous/hashing)
+* [Applications of Stack](miscellaneous/stack-applications)
+  * [Infix to Postfix](miscellaneous/stack-applications/infix_to_postfix.c)
+  * [Postfix Evaluation](miscellaneous/stack-applications/postfix_evaluation.c)
+
 -------------------------------------------------------
 
 # License
-Except as otherwise noted, the content of this page is licensed under the [Creative Commons Attribution 3.0 License](http://creativecommons.org/licenses/by/3.0/), and code files and samples are licensed under the [MIT](LICENSE) License.
+Except as otherwise noted, the content of this page is licensed under the
+[Creative Commons 3.0 License](http://creativecommons.org/licenses/by/3.0/), and code files and
+samples are licensed under the [MIT](LICENSE) License.
+
+# Attribution
+All the images and GIF's are taken and modified via Wikimedia Commons under the license
+[Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/)
