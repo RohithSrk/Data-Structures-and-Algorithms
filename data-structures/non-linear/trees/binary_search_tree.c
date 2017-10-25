@@ -159,46 +159,6 @@ bnode* copy(bnode* root) {
     return temp;
 }
 
-void display(bnode *root, int l, int d, int rd, int gl)
-{
-    // TODO: implement proper horizontal links
-    int i;
-
-    if( l == 0 ) rd = 1;
-
-    if( root->rchild != NULL )
-    {
-        if( l > 0 && rd == d ){
-            gl = l;
-        }
-        display( root->rchild, l + 1, 1, rd, gl);
-    }
-
-    if(l > 0 && d != rd ){
-        for(i = 0; i <= gl*4; i++) printf(" ");
-        printf("|");
-        for(i = 0; i < (l-gl)*4; i++) printf(" ");
-    } else {
-        for(i = 0; i <= l*4; i++) printf(" ");
-    }
-
-    if(d > 0) printf("/");
-    if(d < 0) printf("\\");
-    if(d == 0) printf("|");
-    for(i = 0; i < 3; i++) printf("-");
-    printf("%d\n", root->data);
-
-    if( l == 0 ) rd = -1;
-
-    if( root->lchild != NULL ) {
-        if( l > 0 && rd == d ){
-            gl = l;
-        }
-        display( root->lchild, l + 1, -1, rd, gl);
-    }
-
-}
-
 int main()
 {
     bnode *root = NULL, *temp;
