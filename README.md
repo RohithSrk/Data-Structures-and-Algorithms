@@ -29,7 +29,6 @@
     * [2.2.1. Linear Search](#221-linear-search)
     * [2.2.2. BInay Search](#222-binary-search)
 * [3.0. Miscellaneous](#30-miscellaneous)
-  * [3.0.1. Polynomial Addition](#301-polynomial-addition)
 
 -------------------------------------------------------
 
