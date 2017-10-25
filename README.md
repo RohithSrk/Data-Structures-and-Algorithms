@@ -181,8 +181,8 @@ Graphs are trees where any node can be connected to any other node. This causes 
 ![Graph](_images/graph.png)
 
 #### Implementations
-* [Breadth First Search](graphs/breadth_first_search.c)
-* [Depth First Search](graphs/depth_first_search.c)
+* [Breadth First Search](Graphs/breadth_first_search.c)
+* [Depth First Search](Graphs/depth_first_search.c)
 
 
 # 2.0. Algorithms
