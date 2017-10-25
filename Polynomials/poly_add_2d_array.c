@@ -95,3 +95,15 @@ void main() {
     printf("Resultant expression: ");
     display(c, n3);
 }
+
+/*
+Sample Run:
+-----------
+Enter the no. of terms in first expression:3
+Enter the no. of terms in second expression:4
+Enter the first expression terms:6 3 4 2 2 1
+First expression in memory: 6x^3  4x^2  2x^1
+Enter the second expression terms:5 4 4 3 2 2 1 1
+Second expression in memory: 5x^4  4x^3  2x^2  1x^1
+Resultant expression: 5x^4  10x^3  6x^2  3x^1
+ */
