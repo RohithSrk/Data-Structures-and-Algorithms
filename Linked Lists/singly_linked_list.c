@@ -188,6 +188,7 @@ Node *copy(Node *head) {
 void display(Node *head) {
     Node *temp = head;
 
+    printf("\nStatus of the list:\n");
     if(temp==NULL) {
         printf("List is Empty\n");
         return;
