@@ -71,7 +71,7 @@ Linked lists have a `HEAD` pointer that points to the first node in the list. Th
 Single linked list are a group of nodes where each node has only a single pointer that points to the
 next node in the list.
 
-[`<code>`](data-structures/linear/linked-lists/singly_linked_list.c)
+[`<code>`](/linked-lists/singly_linked_list.c)
 
 ```
 // A single linked list
@@ -106,7 +106,7 @@ next node in the list.
 Double linked lists are similar to single linked lists but each node has two pointers that point to
 the next and previous elements in the list. This helps in traversal of list in either directions.
 
-[`<code>`](data-structures/linear/linked-lists/doubly_linked_list.c)
+[`<code>`](linked-lists/doubly_linked_list.c)
 
 ```
 // Doubly linked list
@@ -144,9 +144,9 @@ other. This is also called the `FIFO` (**F**irst **I**n **F**irst **O**ut) order
 ![Queue](_images/queue.png)
 
 #### Implementations
-* [Queue using Arrays](data-structures/linear/queues/queue_array.c)
-* [Circular Queue using Arrays](data-structures/linear/queues/circular_queue_array.c)
-* [Queues using Circular Linked List](data-structures/linear/queues/queue_circular_linked_list.c)
+* [Queue using Arrays](queues/queue_array.c)
+* [Circular Queue using Arrays](queues/circular_queue_array.c)
+* [Queues using Circular Linked List](queues/queue_circular_linked_list.c)
 
 ### 1.1.3. Stacks
 Stacks are data structures that allows insertion and removal at the same end. This is also called
@@ -155,8 +155,8 @@ Stacks are data structures that allows insertion and removal at the same end. Th
 ![Stack](_images/stack.png)
 
 #### Implementations
-* [Stack using Arrays](data-structures/linear/stacks/stack_array.c)
-* [Stack using Linked List](data-structures/linear/stacks/stack_linked_list.c)
+* [Stack using Arrays](stacks/stack_array.c)
+* [Stack using Linked List](stacks/stack_linked_list.c)
 
 ## 1.2. Non-Linear Data Structures
 Non-linear data structures don't have a linear structure in the sense that they cannot be represented using linear ordering of elements.
@@ -172,7 +172,7 @@ Trees can be visually represented as an upside down tree. There is a root node t
 ![Tree](_images/tree.png)
 
 #### Implementaions
-* [Binary Search Tree](data-structures/non-linear/trees/binary_search_tree.c)
+* [Binary Search Tree](Trees/binary_search_tree.c)
 
 
 ### Graphs
@@ -181,8 +181,8 @@ Graphs are trees where any node can be connected to any other node. This causes 
 ![Graph](_images/graph.png)
 
 #### Implementations
-* [Breadth First Search](data-structures/non-linear/graphs/breadth_first_search.c)
-* [Depth First Search](data-structures/non-linear/graphs/depth_first_search.c)
+* [Breadth First Search](graphs/breadth_first_search.c)
+* [Depth First Search](graphs/depth_first_search.c)
 
 
 # 2.0. Algorithms
@@ -310,12 +310,12 @@ _Time complexity:_
 
 
 # 3.0. Miscellaneous
-* [Polynomial Addition](miscellaneous/polynomials)
-* [Sparse Matrices](miscellaneous/sparse-matrices)
-* [Hashing](miscellaneous/hashing)
-* [Applications of Stack](miscellaneous/stack-applications)
-  * [Infix to Postfix](miscellaneous/stack-applications/infix_to_postfix.c)
-  * [Postfix Evaluation](miscellaneous/stack-applications/postfix_evaluation.c)
+* [Polynomial Addition](polynomials)
+* [Sparse Matrices](sparse-matrices)
+* [Hashing](static-hashing)
+* [Applications of Stack](stack-applications)
+  * [Infix to Postfix](stack-applications/infix_to_postfix.c)
+  * [Postfix Evaluation](stack-applications/postfix_evaluation.c)
 
 -------------------------------------------------------
 
