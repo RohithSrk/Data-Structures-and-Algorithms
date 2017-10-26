@@ -80,7 +80,7 @@ int getAdjUnvisitedVertex(int vertexIndex) {
 }
 
 void breadthFirstSearch(int startVertexIndex) {
-    int i;
+    int i, unvisitedVertex;
 
     //mark chosen first vertex as visited
     lstVertices[startVertexIndex]->visited = 1;
@@ -90,7 +90,6 @@ void breadthFirstSearch(int startVertexIndex) {
 
     //insert vertex index in queue
     enqueue(startVertexIndex);
-    int unvisitedVertex;
 
     while (!isQueueEmpty()) {
         //get the unvisited vertex of vertex which is at front of the queue
@@ -158,5 +157,5 @@ B   C   D
 
 A Graph with start vertex A:
 Output:
-Depth First Search: A B C D E
+Breadth First Search: A B C D E
 */
